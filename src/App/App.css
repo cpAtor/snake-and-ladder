@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.gameContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.gameContainer > * {
+  align-self: flex-end;
+  padding: 5px;
+}

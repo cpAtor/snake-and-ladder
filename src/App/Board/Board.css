@@ -1,0 +1,17 @@
+.game-board{ 
+    /* display: grid;
+    grid-template-columns: 120px 120px 120px ;
+    grid-template-rows: 120px 120px 120px 20px;
+    justify-content: center; */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #d9d9d9;
+    border: 2px solid black; 
+    width: 9vh;
+    height: 9vh;
+    display: inline-block;
+    justify-content: center;
+}
